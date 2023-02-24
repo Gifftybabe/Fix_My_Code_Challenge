@@ -17,11 +17,11 @@ Welcome to programming, where most of your time is spent trying to make sense of
 
 The most important aspect of this exercise is that you build up a picture of what the program was doing, why it was doing it and how it got into a state which caused it to fail.
 
---  First I did this
---  Then I did this
---  Then I did this other thing
---  After which I did this thing over here
---  But then I couldn’t do the thing you asked so, “ValueError”
+- First I did this
+- Then I did this
+-  Then I did this other thing
+-  After which I did this thing over here
+-  But then I couldn’t do the thing you asked so, “ValueError”
 
 Starting at the bottom tells you what caused the failure, but you may need to read backwards to work out what led to the problem.
 
@@ -34,10 +34,10 @@ Rubber Duck debugging is a great technique for seeing things that may at first n
 
 This simple trick is a great way to shift your perspective to allow you to see things you at first missed. For example, “First I set X to 15, then I loop over the list X number of times so all the values are added to the total. Dammit. The total is never reset to zero… no wonder it was so high. Why the hell didn’t I see that earlier..?” is a typical way this sort of thing plays out.
 
-Ask for Help
+##### Ask for Help
 So you’ve looked up the exception, checked the code, rubber ducked for ten minutes and the damn thing still won’t work properly. Now what?
 
-Easy… just ask for help.
+**Easy… just ask for help.
 
 Don’t be afraid to ask questions - good developers are always asking questions. Knowing how to ask and what the right questions are is an essential skill to develop. Asking questions is NOT a sign you don’t know what you’re doing. To good developers it’s evidence that you’re exploring the problem and a signal that you’re engaged and interested.
 
